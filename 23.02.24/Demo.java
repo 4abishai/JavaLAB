@@ -19,9 +19,9 @@ public class Demo {
 
         Box box = new Box();
         System.out.print("Enter length, width, height: ");
-        float length = scan.nextInt();
-        float width = scan.nextInt();
-        float height = scan.nextInt();
+        float length = scan.nextFloat();
+        float width = scan.nextFloat();
+        float height = scan.nextFloat();
 
         System.out.println(box.volume(length, width, height));
 
