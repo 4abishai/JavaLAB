@@ -45,6 +45,7 @@ class box3D extends sheet2D {
     float height;
     static int cost = 60;
 
+    @Override
     float getArea() {
         return (length * breadth * height);
     }
