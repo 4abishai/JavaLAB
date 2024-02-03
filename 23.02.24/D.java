@@ -53,6 +53,6 @@ class Rectangle {
     }
 
     void display() {
-        System.out.println("Area is " + area + "perimeter is " + peri);
+        System.out.println("Area is " + area + " perimeter is " + peri);
     }
 }
