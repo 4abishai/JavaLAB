@@ -11,7 +11,7 @@ public class A {
         sheet2D sheet = new sheet2D();
         box3D box = new box3D();
 
-        System.out.print("Enter height: ");
+        System.out.print("Enter length: ");
         sheet.length = box.length = scan.nextFloat();
 
         System.out.print("Enter breadth: ");

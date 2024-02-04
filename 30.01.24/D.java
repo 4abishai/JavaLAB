@@ -16,8 +16,8 @@ class Account {
         acc_no = sc.nextInt();
         System.out.print("Enter balance: ");
         balance = sc.nextDouble();
+        sc.nextLine(); // -- consume newline
 
-        sc.close();
     }
 
     public void disp() {
@@ -65,6 +65,5 @@ public class D {
             System.out.println();
         }
 
-        sc.close();
     }
 }

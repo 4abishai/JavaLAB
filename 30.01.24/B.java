@@ -10,7 +10,7 @@ public class B {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter length, width, height, thick");
+        System.out.println("Enter length, width, height, thickness: ");
         float length = scan.nextFloat();
         float width = scan.nextFloat();
         float height = scan.nextFloat();
@@ -19,7 +19,7 @@ public class B {
         woodbox wb = new woodbox(length, width, height, thick);
 
         System.out.println("length (inherited): " + wb.length);
-        System.out.println("width: (inherited)" + wb.width);
+        System.out.println("width: (inherited): " + wb.width);
         System.out.println("height (inherited): " + wb.height);
         System.out.println("thick: " + wb.thick);
 
