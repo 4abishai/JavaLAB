@@ -25,14 +25,15 @@ public class B {
 
         Subtraction subtractionObj = new Subtraction();
 
-        int result1 = subtractionObj.subtract(10, 5);
+        int result1 = subtractionObj.subtract(54, 12);
         System.out.println("Result 1: " + result1);
 
-        double result2 = subtractionObj.subtract(15.5, 7.3);
+        double result2 = subtractionObj.subtract(12.1, 0.5);
         System.out.println("Result 2: " + result2);
 
-        int[] numbers = { 8, 4, 2, 1 };
+        int[] numbers = { 8, 0, 2, 1 };
         int result3 = subtractionObj.subtract(numbers);
         System.out.println("Result 3: " + result3);
+
     }
 }
