@@ -51,13 +51,13 @@ public class D {
 
         System.out.print("Enter employee id - ");
         int empId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Enter employee name - ");
         String empName = scanner.nextLine();
 
         System.out.print("Enter department id - ");
         int deptId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Enter department name - ");
         String deptName = scanner.nextLine();
 
