@@ -24,7 +24,7 @@ public class B {
             }
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out
-                    .println("Exception in thread \"main\" java.lang.ArrayIndexOutOfBoundsException:" + e);
+                    .println(e);
         }
 
     }

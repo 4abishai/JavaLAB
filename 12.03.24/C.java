@@ -17,7 +17,7 @@ public class C {
             double result = operand1 / operand2;
             System.out.println("Result of division: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error: " + e);
+            System.out.println(e);
         } finally {
             scanner.close();
         }
