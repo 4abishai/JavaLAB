@@ -61,7 +61,13 @@ public class B {
             time.setTime(hours, minutes, seconds);
 
             System.out.println("Correct Time-> " + time);
-        } catch (InvalidHourException | InvalidMinuteException | InvalidSecondException e) {
+        } catch (InvalidHourException e) {
+            System.out.println("Caught the exception");
+            System.out.println("Exception occurred: " + e.getClass().getSimpleName() + ": " + e.getMessage());
+        } catch (InvalidMinuteException e) {
+            System.out.println("Caught the exception");
+            System.out.println("Exception occurred: " + e.getClass().getSimpleName() + ": " + e.getMessage());
+        } catch (InvalidSecondException e) {
             System.out.println("Caught the exception");
             System.out.println("Exception occurred: " + e.getClass().getSimpleName() + ": " + e.getMessage());
         }
