@@ -13,8 +13,9 @@ class CounterThread extends Thread {
 
     public void run() {
         System.out.println("Thread - " + name);
+        System.out.print("counter -");
         for (int i = lowerRange; i <= upperRange; i++) {
-            System.out.print("Counter - " + i + " ");
+            System.out.print(" " + i);
             try {
                 Thread.sleep(5); // sleep for 5 milliseconds
             } catch (InterruptedException e) {
